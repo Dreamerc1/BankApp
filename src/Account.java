@@ -13,6 +13,13 @@ public class Account {
         customerID = cid;
     }
 
+     // Function for Depositing money
+     void deposit(int amount){
+        if (amount != 0){
+            balance = balance + amount;
+            previousTransaction = amount;
+        }
+     }
 
 
     
