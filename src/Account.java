@@ -20,6 +20,7 @@ public class Account {
             previousTransaction = amount;
         }
      }
+
      // Function for Withdrawing money
      void withdraw(int amount){
         if (amount != 0) {
@@ -57,14 +58,15 @@ public class Account {
                 System.out.println();
                 System.out.println("Enter an option ");
                 char option1 = scanner.next().charAt(0);
+                option = Character.toUpperCase(option1);
                 System.out.println();
 
                 switch(option) {
                     // Case 'A' allows users to check their account balance
                     case 'A' :
-                       System.out.println("......................");
+                       System.out.println("................................");
                        System.out.println("Balance = £" + balance);
-                       System.out.println("......................");
+                       System.out.println("................................");
                        System.out.println();
                        break;
                        // Case 'B' allows users to deposit money
@@ -83,14 +85,14 @@ public class Account {
                        break;
                     // Case 'D' allows users to veiw their recent transaction
                     case 'D' :
-                       System.out.println("......................");
+                       System.out.println("................................");
                        getPreviousTransaction();
-                       System.out.println("......................");
+                       System.out.println("................................");
                        System.out.println();
                        break;
                        // Case E: exists the user
                     case 'E' :
-                    System.out.println("......................");
+                    System.out.println("................................");
                     break;
                     default:
                     System.out.println("Error: Invalid option");
