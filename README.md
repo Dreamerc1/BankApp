@@ -7,11 +7,11 @@ The project has two classes. The Main class is called BankApp and the second cla
 
 The application greets the user with their name and ID.
 It then asks what they would like to do from the following options:
-A. Check balance
-B. Make deposit
-C. Make withdrawal 
-D. View previous transaction
-E. Exit the application
+- A. Check balance
+- B. Make deposit
+- C. Make withdrawal 
+- D. View previous transaction
+- E. Exit the application
 
 ## Folder Structure
 
