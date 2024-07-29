@@ -1,6 +1,19 @@
-## Getting Started
+# Bank application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a beginner project using Java.
+The project has two classes. The Main class is called BankApp and the second class is Account. 
+
+The main class BankApp calls on the second 
+
+## Description
+
+The application greets the user with their name and ID.
+It then asks what they would like to do from the following options:
+A. Check balance
+B. Make deposit
+C. Make withdrawal 
+D. View previous transaction
+E. Exit the application
 
 ## Folder Structure
 
