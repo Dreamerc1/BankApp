@@ -43,7 +43,7 @@ public class Account {
         void showMenu() {
             char option = '\0';
             Scanner scanner = new Scanner(System.in);
-            System.out.println("welcome, " + customerName + "!");
+            System.out.println("Welcome, " + customerName + "!");
             System.out.println("Your ID is: " + customerID);
             System.out.println();
             System.out.println("What would you like to do?");
