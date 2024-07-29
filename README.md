@@ -3,8 +3,6 @@
 This is a beginner project using Java.
 The project has two classes. The Main class is called BankApp and the second class is Account. 
 
-The main class BankApp calls on the second 
-
 ## Description
 
 The application greets the user with their name and ID.
